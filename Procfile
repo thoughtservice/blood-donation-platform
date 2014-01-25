@@ -1,0 +1,1 @@
+web: java $JAVA_OPTS -jar blooddonationapi/target/dependency/jetty-runner.jar --port $PORT blooddonationapi/target/*.war
