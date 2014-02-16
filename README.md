@@ -5,7 +5,7 @@ Quick Start
 **For importing project to eclipse**  
 cd blood-donation-platform  
 mvn eclipse:clean  
-mvn eclipse:eclipse  
+mvn eclipse:eclipse -DdownloadSources=true
 
 **For running the project**  
 git clone git@github.com:thoughtservice/blood-donation-platform.git  
